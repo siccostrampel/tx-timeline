@@ -1,0 +1,326 @@
+{
+   "account":{
+      "accountId":"1f608bac6d3ec193d080f4379a2e93cd9c1362ce",
+      "name":"Timeline Default",
+      "accountHolderName":"Tester",
+      "iban":"NL43RABO0000000018",
+      "currencyCode":"EUR",
+      "currentBalance":1234.01,
+      "spendingLimit":1688.54,
+      "status":"ACTIVE",
+      "actions":{
+         "initiatePayment":true
+      },
+      "decimalPlaces":2
+   },
+   "periods":[
+      {
+         "id":"2015-03",
+         "periodLabel":"mrt",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-02",
+         "periodLabel":"feb",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-01",
+         "periodLabel":"jan",
+         "days":[
+            {
+               "id":"2015-01-04",
+               "dayLabel":"4 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-04T10:30:47.123456",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Minimal number of elements possible",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Omschrijving12345678901234567890123"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"04-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-01",
+               "dayLabel":"1 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-01T10:30:47.123456",
+                     "amount":0.50,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Maximum number of elements possible",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Oorspronkelijk",
+                           "value":"UltimateDebtorName12345678901234567UltimateDebtorName12345678901234567"
+                        },
+                        {
+                           "label":"Uiteindelijk",
+                           "value":"UltimateCreditorName123456789012345UltimateCreditorName123456789012345"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Omschrijving12345678901234567890123",
+                              "Omschrijving23456789012345678901234",
+                              "Omschrijving34567890123456789012345",
+                              "Omschrijving45678901234567890123456",
+                              "Omschrijving56789012345678901234567",
+                              "Omschrijving67890123456789012356789"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Betalingskenmerk",
+                           "value":"1111222233334444"
+                        },
+                        {
+                           "label":"Kenmerk machtiging",
+                           "value":"Kenmerkmachtiging123456789012345678"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"123456"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"2"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"Transactiereferentie12345678901234"
+                        },
+                        {
+                           "label":"Doel van overschrijving",
+                           "value":"DoelVanOverschrijving12345678901234"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "yearLabel":"2015"
+      },
+      {
+         "id":"2014-12",
+         "periodLabel":"dec",
+         "days":[
+
+         ],
+         "yearLabel":"2014"
+      },
+      {
+         "id":"2014-11",
+         "periodLabel":"nov",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-10",
+         "periodLabel":"okt",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-09",
+         "periodLabel":"sep",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-08",
+         "periodLabel":"aug",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-07",
+         "periodLabel":"jul",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-06",
+         "periodLabel":"jun",
+         "days":[
+            {
+               "id":"2014-06-29",
+               "dayLabel":"29 jun",
+               "transactions":[
+                  {
+                     "id":"2014-06-29T11:30:47.123456",
+                     "amount":1999999.99,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Transaction to verify timeline 6 months back",
+                        "iban":"NL99RABO0123456722"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 22"
+                        },
+                        {
+                           "label":"Oorspronkelijk",
+                           "value":"Oorspronkelijk4"
+                        },
+                        {
+                           "label":"Uiteindelijk",
+                           "value":"Uiteindelijk4"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Omschrijving12345678901234567890123"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"01-06-2014"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"29-06-2014"
+                        },
+                        {
+                           "label":"Betalingskenmerk",
+                           "value":"1111222233334444"
+                        },
+                        {
+                           "label":"Kenmerk machtiging",
+                           "value":"KenmerkMachtiging4"
+                        },
+                        {
+                           "label":"IncassantID",
+                           "value":"IncassantID4"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"KenmerkBatch4"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.400,00"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"Transactiereferentie12345678901234"
+                        },
+                        {
+                           "label":"Doel van overschrijving",
+                           "value":"DoelVanOverschrijving4"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"2014-05",
+         "periodLabel":"mei",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-04",
+         "periodLabel":"apr",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-03",
+         "periodLabel":"mrt",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-02",
+         "periodLabel":"feb",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2014-01",
+         "periodLabel":"jan",
+         "days":[
+
+         ],
+         "yearLabel":"2014"
+      }
+   ]
+}

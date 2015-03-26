@@ -1,0 +1,1375 @@
+{
+   "account":{
+      "accountId":"2d9e0001834a5673718b5f3354db054575ad5b96",
+      "name":"Acceptatie data",
+      "accountHolderName":"Tester",
+      "iban":"NL43RABO0000000005",
+      "currencyCode":"EUR",
+      "currentBalance":997886.74,
+      "spendingLimit":997886.74,
+      "status":"ACTIVE",
+      "actions":{
+         "initiatePayment":true
+      },
+      "decimalPlaces":2
+   },
+   "periods":[
+      {
+         "id":"2015-03",
+         "periodLabel":"mrt",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-02",
+         "periodLabel":"feb",
+         "days":[
+            {
+               "id":"2015-02-11",
+               "dayLabel":"11 feb",
+               "transactions":[
+                  {
+                     "id":"2015-02-11T00:08:18.503010",
+                     "amount":100.00,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"EZEZA01C",
+                        "iban":"NL97RABO0109678052"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL97 RABO 0109 6780 52"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SEPA PERIODIEK"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Crediteuren betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"11-02-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-02-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 997.886,74"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"2015-01",
+         "periodLabel":"jan",
+         "days":[
+            {
+               "id":"2015-01-28",
+               "dayLabel":"28 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-28T00:07:59.646172",
+                     "amount":100.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"EZEZA01C",
+                        "iban":"NL97RABO0109678052"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL97 RABO 0109 6780 52"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SEPA PERIODIEK"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Crediteuren betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"28-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"28-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 997.786,74"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-27",
+               "dayLabel":"27 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-27T10:11:28.904098",
+                     "amount":-1000.20,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Eurobetaling Salaris",
+                        "iban":"0000000000"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Soort batch",
+                           "value":[
+                              "Internetbankieren"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Salaris betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"27-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"27-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1001"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 997.686,74"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"ST10-100020300003"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-21",
+               "dayLabel":"21 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-21T00:02:38.570595",
+                     "amount":100.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"EZEZA01C",
+                        "iban":"NL97RABO0109678052"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL97 RABO 0109 6780 52"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SEPA PERIODIEK"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Crediteuren betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"21-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"21-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.686,94"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-15",
+               "dayLabel":"15 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-15T15:30:36.474866",
+                     "amount":-11.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test1",
+                        "iban":"NL92RABO0110637763"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL92 RABO 0110 6377 63"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Jerrel"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.586,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"242534"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-15T15:00:45.736362",
+                     "amount":-11.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test2",
+                        "iban":"NL36RABO0110637801"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL36 RABO 0110 6378 01"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Jerrel"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.597,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"242536"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-15T15:00:45.732804",
+                     "amount":-11.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test1",
+                        "iban":"NL92RABO0110637763"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL92 RABO 0110 6377 63"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Jerrel"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.608,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"242537"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-15T15:00:45.720998",
+                     "amount":-11.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test1",
+                        "iban":"NL92RABO0110637763"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL92 RABO 0110 6377 63"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Jerrel"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.619,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"242535"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-15T15:00:45.694040",
+                     "amount":-11.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test1",
+                        "iban":"NL92RABO0110637763"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL92 RABO 0110 6377 63"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Jerrel"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.630,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"242533"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-15T14:30:43.669886",
+                     "amount":-11.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test1",
+                        "iban":"NL92RABO0110637763"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL92 RABO 0110 6377 63"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "test Jerrel signeren"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.641,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"242532"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-14",
+               "dayLabel":"14 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-14T00:12:39.386023",
+                     "amount":100.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"EZEZA01C",
+                        "iban":"NL97RABO0109678052"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL97 RABO 0109 6780 52"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SEPA PERIODIEK"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Crediteuren betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"14-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"14-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.652,94"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-12",
+               "dayLabel":"12 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-12T13:30:37.616213",
+                     "amount":-1.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test1",
+                        "iban":"NL92RABO0110637763"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL92 RABO 0110 6377 63"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "test"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.552,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"240037"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-12T13:30:37.613196",
+                     "amount":-1.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"PAT",
+                        "iban":"NL97RABO0109678052"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL97 RABO 0109 6780 52"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "test"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.553,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"240034"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-12T13:30:37.609893",
+                     "amount":-1.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test1",
+                        "iban":"NL92RABO0110637763"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL92 RABO 0110 6377 63"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "test"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.554,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"240036"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-12T13:30:37.574714",
+                     "amount":-1.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test2",
+                        "iban":"NL36RABO0110637801"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL36 RABO 0110 6378 01"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "test"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.555,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"240035"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-12T10:01:02.801107",
+                     "amount":5.38,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"EZEZA01C",
+                        "iban":"NL97RABO0109678052"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL97 RABO 0109 6780 52"
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Crediteuren betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.556,94"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"240031"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-08",
+               "dayLabel":"8 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-08T09:30:57.424579",
+                     "amount":100.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"EZEZA01C",
+                        "iban":"NL97RABO0109678052"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL97 RABO 0109 6780 52"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SEPA met omschrijving"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Crediteuren betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.551,56"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"238550"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.834623",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.451,56"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.831215",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.451,55"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.827204",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.451,54"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.824044",
+                     "amount":1.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.451,53"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.820861",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,52"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.817593",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,51"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.797200",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,50"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.794091",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,49"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.790397",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,48"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.787251",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,47"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.784073",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,46"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69840az"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-08T00:04:56.780931",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Rabo Ned. Vrb Exploitatie",
+                        "iban":"NL79RABO0125677847"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL79 RABO 0125 6778 47"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "AC01: Rek.nummer onjuist",
+                              "All the VIPs will be there!"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 998.450,45"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"End-69841az"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "yearLabel":"2015"
+      },
+      {
+         "id":"2014-12",
+         "periodLabel":"dec",
+         "yearLabel":"2014"
+      },
+      {
+         "id":"2014-11",
+         "periodLabel":"nov"
+      },
+      {
+         "id":"2014-10",
+         "periodLabel":"okt"
+      },
+      {
+         "id":"2014-09",
+         "periodLabel":"sep"
+      },
+      {
+         "id":"2014-08",
+         "periodLabel":"aug"
+      },
+      {
+         "id":"2014-07",
+         "periodLabel":"jul"
+      },
+      {
+         "id":"2014-06",
+         "periodLabel":"jun"
+      },
+      {
+         "id":"2014-05",
+         "periodLabel":"mei"
+      },
+      {
+         "id":"2014-04",
+         "periodLabel":"apr"
+      },
+      {
+         "id":"2014-03",
+         "periodLabel":"mrt"
+      },
+      {
+         "id":"2014-02",
+         "periodLabel":"feb"
+      },
+      {
+         "id":"2014-01",
+         "periodLabel":"jan",
+         "yearLabel":"2014"
+      }
+   ]
+}

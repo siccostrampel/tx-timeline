@@ -1,0 +1,1461 @@
+{
+   "account":{
+      "accountId":"17b72ac9fbc45e599f4c3d812a260ae214f1db99",
+      "name":"Transactiesoorten",
+      "accountHolderName":"Tester",
+      "iban":"NL43RABO0000000011",
+      "currencyCode":"EUR",
+      "currentBalance":5000.00,
+      "spendingLimit":5250.00,
+      "status":"ACTIVE",
+      "actions":{
+         "initiatePayment":true
+      },
+      "decimalPlaces":2
+   },
+   "periods":[
+      {
+         "id":"2015-03",
+         "periodLabel":"mrt",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-02",
+         "periodLabel":"feb",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-01",
+         "periodLabel":"jan",
+         "days":[
+            {
+               "id":"2015-01-30",
+               "dayLabel":"30 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-30T11:34:47.106000",
+                     "amount":5.00,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Oorspronkelijk",
+                           "value":"UltimateDebtorName"
+                        },
+                        {
+                           "label":"Uiteindelijk",
+                           "value":"UltimateCreditorName"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Acceptgiro"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Acceptgiro"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"30-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"30-01-2015"
+                        },
+                        {
+                           "label":"Betalingskenmerk",
+                           "value":"CreditorRef"
+                        },
+                        {
+                           "label":"Kenmerk machtiging",
+                           "value":"MandateID"
+                        },
+                        {
+                           "label":"IncassantID",
+                           "value":"CounPtyID"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"123456"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"EndToEndId"
+                        },
+                        {
+                           "label":"Doel van overschrijving",
+                           "value":"Purpose"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-29",
+               "dayLabel":"29 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-29T11:34:47.106000",
+                     "amount":20.00,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"Payment Account - Betaalautomaat",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Betaalautomaat"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"29-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"29-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-28",
+               "dayLabel":"28 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-28T11:34:47.106000",
+                     "amount":-20.00,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Betalen",
+                              "contactloos"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Betalen contactloos"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"28-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"28-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-27",
+               "dayLabel":"27 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-27T11:34:47.106000",
+                     "amount":-20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Uiteindelijk",
+                           "value":"UltimateCreditorName123456789012345UltimateCreditorName123456789012345"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Bankgiro"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"27-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"27-01-2015"
+                        },
+                        {
+                           "label":"Betalingskenmerk",
+                           "value":"1111222233334444"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"Transactiereferentie123456789012345"
+                        },
+                        {
+                           "label":"Doel van overschrijving",
+                           "value":"DoelVanOverschrijving12345678901234"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-26",
+               "dayLabel":"26 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-26T11:34:47.106000",
+                     "amount":0.01,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL67RABO0320136388"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL67 RABO 0320 1363 88"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Crediteuren",
+                              "Betaling"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Crediteuren betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"26-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"26-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 996.673,45"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"254031"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-25",
+               "dayLabel":"25 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-25T11:34:47.106000",
+                     "amount":20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Chipknip"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Chipknip"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"25-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"25-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-24",
+               "dayLabel":"24 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-24T11:34:47.106000",
+                     "amount":-20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Diverse boekingen"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Diverse boekingen"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"24-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"24-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-23",
+               "dayLabel":"23 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-23T11:34:47.106000",
+                     "amount":-11.02,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL36RABO0110665252"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL36 RABO 0110 6652 52"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Euro incasso",
+                              "bedrijven"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bedrijven Euro-incasso"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"23-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"23-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk machtiging",
+                           "value":"M-DDI-131120-2-B2B-1"
+                        },
+                        {
+                           "label":"IncassantID",
+                           "value":"NL13ZZZ112032270000"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 502,30"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"EndToEndId_MM_201407090911464524800"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-22",
+               "dayLabel":"22 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-22T11:34:47.106000",
+                     "amount":-20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Euro incasso",
+                              "Euro-incasso"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Euro-incasso"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"22-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"22-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk machtiging",
+                           "value":"Kenmerkmachtiging123456789012345678"
+                        },
+                        {
+                           "label":"IncassantID",
+                           "value":"Incassantid123456789012345678901234"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        },
+                        {
+                           "label":"Transactiereferentie",
+                           "value":"Transactiereferentie12345678901234"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-21",
+               "dayLabel":"21 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-21T11:34:47.106000",
+                     "amount":20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Geldautomaat Euro"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Geldautomaat Euro"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"21-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"21-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-20",
+               "dayLabel":"20 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-20T11:34:47.106000",
+                     "amount":-20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Geldautomaat VV"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Geldautomaat VV"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"20-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"20-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-19",
+               "dayLabel":"19 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-19T11:34:47.106000",
+                     "amount":20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - iDEAL"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"iDEAL"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"19-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"19-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-18",
+               "dayLabel":"18 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-18T11:34:47.106000",
+                     "amount":-20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Kashandeling"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Kashandeling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"18-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"18-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-17",
+               "dayLabel":"17 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-17T11:34:47.106000",
+                     "amount":20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Machtiging"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Machtiging"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"17-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"17-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-16",
+               "dayLabel":"16 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-16T11:34:47.106000",
+                     "amount":-20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - FiNBOX"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"FiNBOX"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"16-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"16-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-15",
+               "dayLabel":"15 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-15T11:34:47.106000",
+                     "amount":110.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"PaymentAccount - SALARIS BETALING"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Via",
+                           "value":"Salaris betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"Intake-batch-SV500017062"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-14",
+               "dayLabel":"14 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-14T11:34:47.106000",
+                     "amount":20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Eigen rekening"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Eigen rekening"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"14-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"14-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-13",
+               "dayLabel":"13 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-13T11:34:47.106000",
+                     "amount":20.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456789"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 89"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "PaymentAccount - Spoedbetaling"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Spoedbetaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"13-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"13-01-2015"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"1"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-12",
+               "dayLabel":"12 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-12T00:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Herstelboeking",
+                              "returned_transaction.50=",
+                              "Herstelboeking"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-11",
+               "dayLabel":"11 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-11T23:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Euro",
+                              "acceptgiro",
+                              "returned_transaction.116=",
+                              "Terugboeking/afkeuring Euro",
+                              "acceptgiro"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Acceptgiro"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-11T22:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "returned_transaction.593=",
+                              "Terugboeking/afkeuring Eurobetaling"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-11T21:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "Salaris",
+                              "returned_transaction.594=",
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "Salaris"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-11T20:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Intrekking Eurobetaling",
+                              "returned_transaction.595=",
+                              "Terugboeking/afkeuring Eurobetaling",
+                              "Salaris"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-11T19:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Intrekking Eurobetaling Salaris",
+                              "returned_transaction.596=Intrekking",
+                              "Eurobetaling Salaris"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-11T18:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Automatische terugboeking",
+                              "returned_transaction.43=",
+                              "Automatische terugboeking"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Euro-incasso"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-11T17:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking Euro-incasso door",
+                              "incassant",
+                              "returned_transaction.54=",
+                              "Terugboeking Euro-incasso door",
+                              "incassant"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Euro-incasso"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-11T16:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking Euro-incasso door",
+                              "klant",
+                              "returned_transaction.104=",
+                              "Terugboeking Euro-incasso door",
+                              "klant"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Euro-incasso"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-11T15:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking Bedrijven Euro-incasso",
+                              "door bank",
+                              "returned_transaction.106=",
+                              "Terugboeking Bedrijven Euro-incasso",
+                              "door bank"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Euro-incasso"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-11T14:34:47.106000",
+                     "amount":-3.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Test",
+                        "iban":"NL99RABO0123456711"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL99 RABO 0123 4567 11"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Terugboeking Bedrijven Euro-incasso",
+                              "door incassant",
+                              "returned_transaction.107=",
+                              "Terugboeking Bedrijven Euro-incasso",
+                              "door incassant"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Euro-incasso"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 1.999.999,99"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "yearLabel":"2015"
+      },
+      {
+         "id":"2014-12",
+         "periodLabel":"dec",
+         "yearLabel":"2014"
+      },
+      {
+         "id":"2014-11",
+         "periodLabel":"nov"
+      },
+      {
+         "id":"2014-10",
+         "periodLabel":"okt"
+      },
+      {
+         "id":"2014-09",
+         "periodLabel":"sep"
+      },
+      {
+         "id":"2014-08",
+         "periodLabel":"aug"
+      },
+      {
+         "id":"2014-07",
+         "periodLabel":"jul"
+      },
+      {
+         "id":"2014-06",
+         "periodLabel":"jun"
+      },
+      {
+         "id":"2014-05",
+         "periodLabel":"mei"
+      },
+      {
+         "id":"2014-04",
+         "periodLabel":"apr"
+      },
+      {
+         "id":"2014-03",
+         "periodLabel":"mrt"
+      },
+      {
+         "id":"2014-02",
+         "periodLabel":"feb"
+      },
+      {
+         "id":"2014-01",
+         "periodLabel":"jan",
+         "yearLabel":"2014"
+      }
+   ]
+}

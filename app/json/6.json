@@ -1,0 +1,309 @@
+{
+   "account":{
+      "accountId":"ee68918d1f98f97f1924a3c0b473aa2ee626c3c3",
+      "name":"Batch Bundling",
+      "accountHolderName":"Tester",
+      "iban":"NL43RABO0000000001",
+      "currencyCode":"EUR",
+      "currentBalance":995651.33,
+      "spendingLimit":995651.33,
+      "status":"ACTIVE",
+      "actions":{
+         "initiatePayment":true
+      },
+      "decimalPlaces":2
+   },
+   "periods":[
+      {
+         "id":"2015-03",
+         "periodLabel":"mrt",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-02",
+         "periodLabel":"feb",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-01",
+         "periodLabel":"jan",
+         "days":[
+            {
+               "id":"2015-01-01",
+               "dayLabel":"1 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-01T11:30:47.000004",
+                     "amount":-1.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Ccftweec Mu",
+                        "iban":"NL14RABO1095838679"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL14 RABO 1095 8386 79"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Transactie tussen batch door"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 995.651,33"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-01T11:30:47.000001",
+                     "amount":550.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Bundling"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Via",
+                           "value":"Salaris betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"Bundling"
+                        },
+                        {
+                           "label":"Aantal posten",
+                           "value":"5"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-01T11:30:46.000001",
+                     "amount":-1.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Ccftweec Mu",
+                        "iban":"NL14RABO1095838679"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL14 RABO 1095 8386 79"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Test overboeking"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"30-12-2014"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 995.652,33"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  },
+                  {
+                     "id":"2015-01-01T11:30:45.000002",
+                     "amount":110.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Bundling 2"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Via",
+                           "value":"Salaris betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"30-12-2014"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"Bundling 2"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-01T11:30:45.000001",
+                     "amount":110.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Bundling 2"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Via",
+                           "value":"Salaris betaling"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"30-12-2014"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"Bundling 2"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 2.100,00"
+                        }
+                     ]
+                  },
+                  {
+                     "id":"2015-01-01T11:30:44.000002",
+                     "amount":-1.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Ccftweec Mu",
+                        "iban":"NL14RABO1095838679"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL14 RABO 1095 8386 79"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Test overboeking"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"09-02-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"01-01-2015"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 995.653,33"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            }
+         ],
+         "yearLabel":"2015"
+      },
+      {
+         "id":"2014-12",
+         "periodLabel":"dec",
+         "yearLabel":"2014"
+      },
+      {
+         "id":"2014-11",
+         "periodLabel":"nov"
+      },
+      {
+         "id":"2014-10",
+         "periodLabel":"okt"
+      },
+      {
+         "id":"2014-09",
+         "periodLabel":"sep"
+      },
+      {
+         "id":"2014-08",
+         "periodLabel":"aug"
+      },
+      {
+         "id":"2014-07",
+         "periodLabel":"jul"
+      },
+      {
+         "id":"2014-06",
+         "periodLabel":"jun"
+      },
+      {
+         "id":"2014-05",
+         "periodLabel":"mei"
+      },
+      {
+         "id":"2014-04",
+         "periodLabel":"apr"
+      },
+      {
+         "id":"2014-03",
+         "periodLabel":"mrt"
+      },
+      {
+         "id":"2014-02",
+         "periodLabel":"feb"
+      },
+      {
+         "id":"2014-01",
+         "periodLabel":"jan",
+         "yearLabel":"2014"
+      }
+   ]
+}

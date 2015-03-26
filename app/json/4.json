@@ -1,0 +1,1389 @@
+{
+   "account":{
+      "accountId":"bcedd377c4a3739a4633aecf0c4670783da2d54e",
+      "name":"Laad Meer Transacties en Zoeken",
+      "accountHolderName":"Tester",
+      "iban":"NL43RABO0000000003",
+      "currencyCode":"EUR",
+      "currentBalance":999720.03,
+      "spendingLimit":999720.03,
+      "status":"ACTIVE",
+      "actions":{
+         "initiatePayment":true
+      },
+      "decimalPlaces":2
+   },
+   "periods":[
+      {
+         "id":"2015-03",
+         "periodLabel":"mrt",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-02",
+         "periodLabel":"feb",
+         "days":[
+
+         ]
+      },
+      {
+         "id":"2015-01",
+         "periodLabel":"jan",
+         "days":[
+            {
+               "id":"2015-01-31",
+               "dayLabel":"31 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-31T09:07:29.269427",
+                     "amount":-10.00,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "STICHTING BAANBREKER JWG"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"31-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"31-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"164770"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.990,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-30",
+               "dayLabel":"30 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-30T09:07:29.269427",
+                     "amount":-100.00,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "STICHTING BAANBREKER JWG"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"30-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"30-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"164770"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.990,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-29",
+               "dayLabel":"29 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-29T09:07:29.270414",
+                     "amount":-9999.99,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "ZIE APART VERZONDEN SPECIFICATIE"
+                           ]
+                        },
+                        {
+                           "label":"Via",
+                           "value":"Bankgiro opdracht"
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"29-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"29-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"166771"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.980,02"
+                        }
+                     ],
+                     "actions":{
+                        "initiateNewPayment":true
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-28",
+               "dayLabel":"28 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-28T09:07:29.271388",
+                     "amount":-10000.00,
+                     "newSinceLastVisit":true,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LONEN MAART 97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"28-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"28-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"074661"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.970,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-27",
+               "dayLabel":"27 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-27T09:07:29.272426",
+                     "amount":-100000.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SALARIS PER 03-97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"27-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"27-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"089810"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.960,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-26",
+               "dayLabel":"26 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-26T09:07:29.273442",
+                     "amount":-1000000.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LOON WEEK 1997-10"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"26-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"26-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"127959"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.950,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-25",
+               "dayLabel":"25 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-25T09:07:29.274878",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SPAARLOON"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"25-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"25-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"151456"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.940,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-24",
+               "dayLabel":"24 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-24T09:07:29.275858",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "STICHTING BAANBREKER JWG"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"24-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"24-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"164770"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.930,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-23",
+               "dayLabel":"23 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-23T09:07:29.276853",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "ZIE APART VERZONDEN SPECIFICATIE"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"23-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"23-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"166771"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.920,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-22",
+               "dayLabel":"22 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-22T09:07:29.277834",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LONEN MAART 97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"22-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"22-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"074661"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.910,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-21",
+               "dayLabel":"21 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-21T09:07:29.279108",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SALARIS PER 03-97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"21-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"21-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"089810"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.900,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-20",
+               "dayLabel":"20 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-20T09:07:29.280082",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LOON WEEK 1997-10"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"20-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"20-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"127959"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.890,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-19",
+               "dayLabel":"19 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-19T09:07:29.281096",
+                     "amount":-2.50,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"Jan Test",
+                        "iban":"NL00RABO0000000000"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL00 RABO 0000 0000 00"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "Vind mij"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"19-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"19-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"151456"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.880,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-18",
+               "dayLabel":"18 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-18T09:07:29.282424",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "STICHTING BAANBREKER JWG"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"18-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"18-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"164770"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.870,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-17",
+               "dayLabel":"17 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-17T09:07:29.298149",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "ZIE APART VERZONDEN SPECIFICATIE"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"17-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"17-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"166771"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.860,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-16",
+               "dayLabel":"16 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-16T09:07:29.299146",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LONEN MAART 97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"16-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"16-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"074661"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.850,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-15",
+               "dayLabel":"15 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-15T09:07:29.299146",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LONEN MAART 97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"15-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"074661"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.850,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-14",
+               "dayLabel":"14 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-14T09:07:29.300122",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SALARIS PER 03-97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"14-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"14-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"089810"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.840,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-13",
+               "dayLabel":"13 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-13T09:07:29.301092",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LOON WEEK 1997-10"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"13-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"13-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"127959"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.830,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-12",
+               "dayLabel":"12 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-12T09:07:29.302064",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SPAARLOON"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"12-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"151456"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.820,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-11",
+               "dayLabel":"11 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-11T09:07:29.303036",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "STICHTING BAANBREKER JWG"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"11-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"164770"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.810,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-10",
+               "dayLabel":"10 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-10T09:07:29.304219",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "ZIE APART VERZONDEN SPECIFICATIE"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"10-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"10-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"166771"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.800,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-09",
+               "dayLabel":"9 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-09T09:07:29.305242",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LONEN MAART 97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"09-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"09-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"074661"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.790,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-08",
+               "dayLabel":"8 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-08T09:07:29.314233",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SALARIS PER 03-97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"08-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"089810"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.780,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-07",
+               "dayLabel":"7 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-07T09:07:29.315220",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LOON WEEK 1997-10"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"07-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"07-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"127959"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.770,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-06",
+               "dayLabel":"6 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-06T09:07:29.366086",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SPAARLOON"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"06-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"06-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"151456"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.760,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-05",
+               "dayLabel":"5 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-05T09:07:29.367195",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "STICHTING BAANBREKER JWG"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"05-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"05-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"164770"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.750,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-04",
+               "dayLabel":"4 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-04T09:07:29.368298",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "ZIE APART VERZONDEN SPECIFICATIE"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"04-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"04-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"166771"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.740,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-03",
+               "dayLabel":"3 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-03T09:07:29.369326",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "LONEN MAART 97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"03-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"03-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"074661"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.730,02"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"2015-01-02",
+               "dayLabel":"2 jan",
+               "transactions":[
+                  {
+                     "id":"2015-01-02T09:07:29.370368",
+                     "amount":-10.00,
+                     "newSinceLastVisit":false,
+                     "otherParty":{
+                        "fullName":"K.Bergmans",
+                        "iban":"NL28RABO0042147506"
+                     },
+                     "formattedDetails":[
+                        {
+                           "label":"Tegenrekening/IBAN",
+                           "value":"NL28 RABO 0042 1475 06"
+                        },
+                        {
+                           "label":"Omschrijving",
+                           "value":[
+                              "SALARIS PER 03-97"
+                           ]
+                        },
+                        {
+                           "label":"Rentedatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Verwerkingsdatum",
+                           "value":"02-01-2015"
+                        },
+                        {
+                           "label":"Kenmerk batch",
+                           "value":"089810"
+                        },
+                        {
+                           "label":"Saldo na boeking",
+                           "value":"€ 999.720,02"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "yearLabel":"2015",
+         "actions":{
+            "moreTransactions":"2015-01-01T13:50:59.233556"
+         }
+      },
+      {
+         "id":"2014-12",
+         "periodLabel":"dec",
+         "yearLabel":"2014"
+      },
+      {
+         "id":"2014-11",
+         "periodLabel":"nov"
+      },
+      {
+         "id":"2014-10",
+         "periodLabel":"okt"
+      },
+      {
+         "id":"2014-09",
+         "periodLabel":"sep"
+      },
+      {
+         "id":"2014-08",
+         "periodLabel":"aug"
+      },
+      {
+         "id":"2014-07",
+         "periodLabel":"jul"
+      },
+      {
+         "id":"2014-06",
+         "periodLabel":"jun"
+      },
+      {
+         "id":"2014-05",
+         "periodLabel":"mei"
+      },
+      {
+         "id":"2014-04",
+         "periodLabel":"apr"
+      },
+      {
+         "id":"2014-03",
+         "periodLabel":"mrt"
+      },
+      {
+         "id":"2014-02",
+         "periodLabel":"feb"
+      },
+      {
+         "id":"2014-01",
+         "periodLabel":"jan",
+         "yearLabel":"2014"
+      }
+   ]
+}
